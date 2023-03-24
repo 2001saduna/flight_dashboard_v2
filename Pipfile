@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dateutil = ">=2.8.1, <3.0"
+python-dotenv = "<=0.20.0"
+plotly = "<=5.11.0"
+numpy = ">=1.16"
+pandas = "<=1.5.2"
+geopy = "<=2.2.0"
+flask = "<=2.2.3"
+flask-bootstrap = "<=3.3.7.1"
+
+[dev-packages]
+pytest = ">=6.1.2"
+
+
+[requires]
+python_version = "3.8"
+
